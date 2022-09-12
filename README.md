@@ -1,3 +1,3 @@
 # my_resume
 This is my portfolio website
-#### https://aquamarine-dusk-8de7be.netlify.app/
+#### https://inspiring-crostata-9763bd.netlify.app/
