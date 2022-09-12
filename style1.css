@@ -9,7 +9,7 @@ body
     color: white;
 }
 
-@media (min-width:350px)
+@media (min-width:150px)
 {
     .intro {
         background: url("\leaves_bushes_green_174515_3840x2400.jpg");
@@ -26,7 +26,7 @@ body
     }
 }    
 #profile {
-    height: 40%;
+    height: 33%;
     width: auto;
     border-radius: 50%;
     margin: 10px;
@@ -81,4 +81,101 @@ body
 #title h2
 {
     padding-top: 8px;
+}
+
+@media (max-width:640px)
+{
+    #intro_text {
+        width: 100%;
+        height: auto;
+        font-size: 13px;
+    }
+}
+@media(max-width:640px)
+{
+    #profile
+    {
+        height: 27%;
+        margin: -13px;
+    }
+    .intro h1 {
+        font-size: 277%;
+    }
+    #intro_text {
+        margin: 0;
+        padding: 0;
+        margin-top: -63px;
+    }
+}
+@media(max-width:482px)
+{
+    #intro_text {
+        
+        margin-top: -19px;
+    }
+    
+}
+@media(max-width:400px)
+{
+    .intro p{
+        margin-top: 0px;
+    }
+    
+}
+@media(max-width:540px)
+{
+#text
+    {
+        padding-top: 0;
+        margin-top: 0;
+    }
+}
+@media (max-width:400px)
+{
+    #intro_text {
+        margin: 0;
+        padding: 0;
+    }
+    #profile
+    {
+        height: 25%;
+        
+    }
+}
+@media (max-width:322px)
+{
+    #intro_text {
+        font-size: 12px;
+        margin-top: -35px;
+    }
+    #profile
+    {
+        height: 23%;
+        
+    }
+}
+@media (max-width:290px)
+{
+    #intro_text {
+        font-size: 11px;
+    }
+    body {
+        font-size: 10px;
+    }
+    #profile
+    {
+        height: 15%;
+    }
+
+}
+@media (max-width:290px)
+{
+    #intro_text {
+        font-size: 10px;
+    }
+    #profile
+    {
+        height: 13%;
+    }
+
 }
